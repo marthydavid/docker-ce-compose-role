@@ -1,5 +1,5 @@
 ---
-# tasks file for compose
+# tasks file for docker-ce-compose
 
 - name: install compose
   get_url:
