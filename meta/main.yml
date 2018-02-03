@@ -1,6 +1,6 @@
 galaxy_info:
   author: David Marthy
-  description: System Administrator with interest in OpenStack and Docker
+  description: role for installing compose for Docker CE
   company: Budapest Kozut ltd.
   license: license (MIT)
   min_ansible_version: 2.2
