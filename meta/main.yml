@@ -19,7 +19,7 @@ galaxy_info:
   - name: Debian
     versions:
     - stretch
-  galaxy_tags: 
+  galaxy_tags:
   - docker
   - cloud
 

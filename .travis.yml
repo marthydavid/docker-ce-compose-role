@@ -14,8 +14,7 @@ addons:
 install:
   # Install ansible
   - pip install ansible
-  - pip install docker-py
-
+  - pip install ansible-lint
   # Check ansible version
   - ansible --version
 
@@ -25,6 +24,7 @@ install:
 script:
   # Basic role syntax check
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
+  - ansible-lint tests/test.yml
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
